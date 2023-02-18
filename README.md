@@ -20,7 +20,7 @@
 I used transfer learning, with the help of the famous EfficientNetB3 model
 
 ### Results:
-- one of 15 fruits
+one of 15 fruits
   - apple_braeburn_1
   - apple_golden_1
   - apple_granny_smith_1
