@@ -5,7 +5,6 @@
 - [tensorflow](https://www.tensorflow.org/)
 - [Numpy](https://numpy.org/)
 - [Matplotlib](https://matplotlib.org/)
-- [Imghdr](https://docs.python.org/3/library/imghdr.html)
 
 ### Data: https://drive.google.com/drive/folders/1Dt2iyQpTMCW1K8cesHzNCvShgd-bymWb?usp=share_link
 
