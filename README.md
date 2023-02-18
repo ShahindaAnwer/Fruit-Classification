@@ -3,8 +3,8 @@
 ### Libraries: 
 - [Tensorflow - Keras](https://www.tensorflow.org/api_docs/python/tf/keras)
 - [tensorflow](https://www.tensorflow.org/)
-- [OpenCV](https://opencv.org/)
-- [OS](https://docs.python.org/3/library/os.html)
+- [Numpy](https://numpy.org/)
+- [Matplotlib](https://matplotlib.org/)
 - [Imghdr](https://docs.python.org/3/library/imghdr.html)
 
 ### Data: https://drive.google.com/drive/folders/1Dt2iyQpTMCW1K8cesHzNCvShgd-bymWb?usp=share_link
@@ -40,5 +40,5 @@ one of 15 fruits
 ### Accuracy:
 - accuracy: 1.0000 
 - Loss: 0.0346
-- Val_accuracy: 1.906
+- Val_accuracy: 1.00
 - Val_loss: 0.2800
