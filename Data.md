@@ -4,10 +4,12 @@ Link: [https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia](h
 
 or
 
-Link to dataset on my drive: https://www.kaggle.com/datasets/moltean/fruits
+Link to my dataset on drive: https://www.kaggle.com/datasets/moltean/fruits
 
 ## Data:
-Multi-Class Classifiacation
+
+*Multi-Class Classifiacation*
+
 Total number of images: 5162.
 Training set: 3446 images (one fruit or vegetable per image).
 Test set: 1716 images (one fruit or vegetable per image).
