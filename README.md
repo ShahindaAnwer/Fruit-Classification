@@ -1,22 +1,24 @@
-# Fruit_Classification
+# Fruit Classification
+
+## Problem Statement:
+Although a fruit recogition system is not necessarily important, it would be beneficial to have one that can classify different types of fruits and vegetables. A customer would click an image with his smart phone and upload it in the application for the store to detect the fruit's name and return it back to the customer.
+
+## Model:
+I used transfer learning, with the help of the famous EfficientNetB3 model,trained on ImageNet.
+
+![EffecientNetB3](https://user-images.githubusercontent.com/62629426/221451586-656d106d-228f-4fa8-805b-5a6ce9905dbe.png)
+![image](https://user-images.githubusercontent.com/62629426/221452760-2832dc48-030a-4789-a472-f56a4af89850.png)
+
+
+As we can see that EfficientNet achieves the highest accuracy, whilst having the least parameters out of most modern CNN architectures.
+
+<img width="833" alt="models" src="https://user-images.githubusercontent.com/62629426/221452049-30538255-0bc4-4d62-84c1-19cf5608a84d.png">
 
 ### Libraries: 
 - [Tensorflow - Keras](https://www.tensorflow.org/api_docs/python/tf/keras)
 - [tensorflow](https://www.tensorflow.org/)
 - [Numpy](https://numpy.org/)
 - [Matplotlib](https://matplotlib.org/)
-
-### Data: https://drive.google.com/drive/folders/1Dt2iyQpTMCW1K8cesHzNCvShgd-bymWb?usp=share_link
-
-### Steps:
-1. Import packages and load data
-2. Convert data directory to dataset
-3. Encode Target Variables
-4. Split and train data
-5. Create model, compile then fit
-
-### Model:
-I used transfer learning, with the help of the famous EfficientNetB3 model
 
 ### Results:
 one of 15 fruits
@@ -37,7 +39,7 @@ one of 15 fruits
   - zucchini_dark_1 
 
 ### Accuracy:
-- accuracy: 1.0000 
-- Loss: 0.0346
-- Val_accuracy: 1.00
-- Val_loss: 0.2800
+- accuracy: 0.9896 
+- Loss: 0.0222
+- Val_accuracy: 0.8750
+- Val_loss: 0.6089
