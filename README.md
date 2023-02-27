@@ -4,7 +4,7 @@
 Although a fruit recogition system is not necessarily important, it would be beneficial to have one that can classify different types of fruits and vegetables. A customer would click an image with his smart phone and upload it in the application for the store to detect the fruit's name and return it back to the customer.
 
 ## Model
-I used transfer learning, with the help of the famous EfficientNetB3 model,trained on ImageNet.
+I used transfer learning, with the help of the famous EfficientNetB3 model, trained on ImageNet.
 
 ![EfficientNetB3](https://user-images.githubusercontent.com/62629426/221706810-2cda4cc9-2b40-45eb-b5eb-f7c518739d61.png)
 
