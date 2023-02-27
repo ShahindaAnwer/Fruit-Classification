@@ -1,18 +1,23 @@
 # Fruit Classification
 
-## Problem Statement:
+## Problem Statement
 Although a fruit recogition system is not necessarily important, it would be beneficial to have one that can classify different types of fruits and vegetables. A customer would click an image with his smart phone and upload it in the application for the store to detect the fruit's name and return it back to the customer.
 
-## Model:
+## Model
 I used transfer learning, with the help of the famous EfficientNetB3 model,trained on ImageNet.
 
-![EffecientNetB3](https://user-images.githubusercontent.com/62629426/221451586-656d106d-228f-4fa8-805b-5a6ce9905dbe.png)
-![image](https://user-images.githubusercontent.com/62629426/221452760-2832dc48-030a-4789-a472-f56a4af89850.png)
-
+![EfficientNetB3](https://user-images.githubusercontent.com/62629426/221706810-2cda4cc9-2b40-45eb-b5eb-f7c518739d61.png)
 
 As we can see that EfficientNet achieves the highest accuracy, whilst having the least parameters out of most modern CNN architectures.
 
-<img width="833" alt="models" src="https://user-images.githubusercontent.com/62629426/221452049-30538255-0bc4-4d62-84c1-19cf5608a84d.png">
+<img width="500" alt="models" src="https://user-images.githubusercontent.com/62629426/221452049-30538255-0bc4-4d62-84c1-19cf5608a84d.png">
+
+EfficientNet are also scaled in a more principled way, than other models, basically, everything is gradually increasing.
+
+![image](https://user-images.githubusercontent.com/62629426/221708947-8fa7e019-6f04-4bfb-a79a-e3e1b93bd681.png)
+*(a) is a baseline network example; (b)-(d) are conventional scaling that only increases one dimension of network width, depth, or resolution. (e) is our proposed compound scaling method that uniformly scales all three dimensions with a fixed ratio.*
+
+To get more information about the EfficientNet architecture check this out (https://towardsdatascience.com/complete-architectural-details-of-all-efficientnet-models-5fd5b736142)
 
 ### Libraries: 
 - [Tensorflow - Keras](https://www.tensorflow.org/api_docs/python/tf/keras)
